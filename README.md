@@ -1,4 +1,4 @@
-# Rock-paper-scrissors
+# Rock-paper-scissors
 Web based Game of Rock Paper and Scrissors
 
 ## Intro
