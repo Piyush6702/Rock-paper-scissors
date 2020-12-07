@@ -10,3 +10,4 @@ This web project have used the idea of Famous Hand Game *Rock Paper Scissors*
 3) Unlimited Numbers of Attempts
 
 ### PLay Now 
+https://piyush6702.github.io/Rock-paper-scissors/
