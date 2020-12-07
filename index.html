@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scrissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section>
+
+        <div class="scores">
+            <h1>Scoreboard</h1>
+            <div class="player-score">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro ">
+            <p id="intro-heading">Rock Paper Scrissors </p>
+            <button class="btn">Let's Play</button>
+        </div>
+
+
+        <!-- Add fadeout  -->
+        <div class="play-arena fadeout">
+            <p id="intro-heading" class="result">Choose Any Option</p>
+
+            <div class="icons">
+                <img id="player-icon" src="images/rock.png" alt="">
+                <img id="computer-icon" src="images/scissors.png" alt="">
+            </div>
+
+            <div class="choose-options">
+                <button class="btn">rock</button>
+                <button class="btn">paper</button>
+                <button class="btn">scissors</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
